@@ -1,7 +1,5 @@
 # ChronoRate - Changelog
 
-All notable changes to  will be documented in this file.  
-
 ---
 
 ## [1.1.3]
