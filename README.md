@@ -1,18 +1,20 @@
 # ChronoRate
 
 ChronoRate is a time tracking add-in for Autodesk Fusion that helps designers 
-and engineers measure active working time on each project and calculate an 
+and engineers measure **active** working time on each project and calculate an 
 estimated billing rate.
 
 ---
 
 ## Features
 
-- Tracks active working time per session (auto start/pause)
+- Tracks active working time per session; automatically starts and pauses based on the last recorded command 
 - Works across multiple opened tabs
-- Configurable session time frame
-- Configurable hourly-rate 
-- Configurable time credit check
+- Configurable session time frame 
+- Configurable session accounting
+- Configurable hourly-rate
+- Session List table / viewer with copy fuction
+- Data retention
 
 ---
 
@@ -28,7 +30,7 @@ estimated billing rate.
    - **macOS:**
      `~/Library/Application Support/Autodesk/Autodesk Fusion 360/API/AddIns/`
 
-   > ⚠️ **Note:** verify these paths on your system — they may vary depending
+   > ⚠️ **Note:** verify these paths on your system - they may vary depending
    > on your Fusion version.
 
 4. Open Fusion, go to **Utilities → Add-ins → Scripts and Add-ins**
@@ -39,6 +41,27 @@ estimated billing rate.
 
 ## Usage
 
+Once the add-in is launched, simply save the document with a name, and ChronoRate will automatically start tracking the session from that point on.
+No further action is required.
+
+### Gallery
+
+<p align="center">
+  <img src="assets/screenshots/screenshot1.png" width="48%" alt="Main panel">
+  <img src="assets/screenshots/screenshot2.png" width="48%" alt="Settings panel">
+</p>
+<p align="center">
+  <img src="assets/screenshots/screenshot3.png" width="48%" alt="Save file to start session tracking">
+  <img src="assets/screenshots/screenshot4.png" width="48%" alt="Name of the file is displayed in Project section">
+</p>
+<p align="center">
+  <img src="assets/screenshots/screenshot5.png" width="48%" alt="Tracking begins when the first command is detected and pause if no commands are detected within the selected time frame">
+  <img src="assets/screenshots/screenshot6.png" width="48%" alt="Save to store session data">
+</p>
+<p align="center">
+  <img src="assets/screenshots/screenshot7.png" width="48%" alt="You can access the list of sessions by clicking on the session list icon">
+  <img src="assets/screenshots/screenshot8.png" width="48%" alt="Session list panel">
+</p>
 
 ---
 
