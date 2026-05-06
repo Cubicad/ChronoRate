@@ -41,26 +41,27 @@ estimated billing rate.
 
 ## Usage
 
-Once the add-in is launched, simply save the document with a name, and ChronoRate will automatically start tracking the session from that point on.
-No further action is required.
+Once the add-in is launched, simply save a new file with a name, and ChronoRate will automatically start tracking the session from that point on. The session data will be saved when the file is saved; no further action is required.
+
+Opening a previously saved file will display the data from the saved session (if available) and resume tracking from that point.
 
 ### Gallery
 
 <p align="center">
-  <img src="assets/screenshots/screenshot1.png" width="48%" alt="Main panel">
-  <img src="assets/screenshots/screenshot2.png" width="48%" alt="Settings panel">
+  <img src="assets/screenshots/Screenshot 1.png" width="48%" alt="Main panel">
+  <img src="assets/screenshots/Screenshot 2.png" width="48%" alt="Settings panel">
 </p>
 <p align="center">
-  <img src="assets/screenshots/screenshot3.png" width="48%" alt="Save file to start session tracking">
-  <img src="assets/screenshots/screenshot4.png" width="48%" alt="Name of the file is displayed in Project section">
+  <img src="assets/screenshots/Screenshot 3.png" width="48%" alt="Save file to start session tracking">
+  <img src="assets/screenshots/Screenshot 4.png" width="48%" alt="Name of the file is displayed in Project section">
 </p>
 <p align="center">
-  <img src="assets/screenshots/screenshot5.png" width="48%" alt="Tracking begins when the first command is detected and pause if no commands are detected within the selected time frame">
-  <img src="assets/screenshots/screenshot6.png" width="48%" alt="Save to store session data">
+  <img src="assets/screenshots/Screenshot 5.png" width="48%" alt="Tracking begins when the first command is detected and pause if no commands are detected within the selected time frame">
+  <img src="assets/screenshots/Screenshot 6.png" width="48%" alt="Save to store session data">
 </p>
 <p align="center">
-  <img src="assets/screenshots/screenshot7.png" width="48%" alt="You can access the list of sessions by clicking on the session list icon">
-  <img src="assets/screenshots/screenshot8.png" width="48%" alt="Session list panel">
+  <img src="assets/screenshots/Screenshot 7.png" width="48%" alt="You can access the list of sessions by clicking on the session list icon">
+  <img src="assets/screenshots/Screenshot 8.png" width="48%" alt="Session list panel">
 </p>
 
 ---
