@@ -41,7 +41,9 @@ estimated billing rate.
 
 ## Usage
 
-Once the add-in is launched, simply save a new file with a name, and ChronoRate will automatically start tracking the session from that point on. The session data will be saved when the file is saved; no further action is required.
+Once the add-in is launched, simply save a new file with a name, and ChronoRate will automatically start tracking the session from that point on.
+Tracking starts with the first (valid) command and pauses if no commands are detected within the selected time window.
+The session data will be saved when the file is saved; no further action is required.
 
 Opening a previously saved file will display the data from the saved session (if available) and resume tracking from that point.
 
